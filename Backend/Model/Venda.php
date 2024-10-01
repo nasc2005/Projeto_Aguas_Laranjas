@@ -7,7 +7,7 @@ use PDO;
 class Venda {
     
     private $id;
-    private $idUserVenda;
+    private $idUsuarioVenda;
     private $idLugarVenda;
     private $idImgsVenda;
     private $insertDateTime;
@@ -23,12 +23,12 @@ class Venda {
         $this->id = $id;
     }
 
-    public function getIdUserVenda() {
-        return $this->idUserVenda;
+    public function getIdUsuarioVenda() {
+        return $this->idUsuarioVenda;
     }
 
-    public function setIdUserVenda($idUserVenda) {
-        $this->idUserVenda = $idUserVenda;
+    public function setIdUsuarioVenda($idUsuarioVenda) {
+        $this->idUsuarioVenda = $idUsuarioVenda;
     }
 
     public function getIdLugarVenda() {

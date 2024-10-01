@@ -6,7 +6,7 @@ use PDO;
 
 class Usuario {
     private $id;
-    private $idInstU;
+    private $idInstUsuario;
     private $insertDateTime;
     private $nome;
     private $Email;
@@ -24,12 +24,12 @@ class Usuario {
         $this->id = $id;
     }
     
-    public function getIdInstU() {
-        return $this->idInstU;
+    public function getIdInstUsuario() {
+        return $this->idInstUsuario;
     }
     
-    public function setIdInstU($idInstU) {
-        $this->idInstU = $idInstU;
+    public function setIdInstUsuario($idInstUsuario) {
+        $this->idInstUsuario = $idInstUsuario;
     }
 
     public function getInsertDateTime() {
